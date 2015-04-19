@@ -1,0 +1,550 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		75F06B3B1AE1088F00447162 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 75F06B3A1AE1088F00447162 /* main.m */; };
+		75F06B3E1AE1088F00447162 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 75F06B3D1AE1088F00447162 /* AppDelegate.m */; };
+		75F06B411AE1088F00447162 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75F06B401AE1088F00447162 /* ViewController.m */; };
+		75F06B441AE1088F00447162 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75F06B421AE1088F00447162 /* Main.storyboard */; };
+		75F06B461AE1088F00447162 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75F06B451AE1088F00447162 /* Images.xcassets */; };
+		75F06B491AE1088F00447162 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 75F06B471AE1088F00447162 /* LaunchScreen.xib */; };
+		75F06B551AE1089000447162 /* EnglishKaraokeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 75F06B541AE1089000447162 /* EnglishKaraokeTests.m */; };
+		75F06B651AE108CB00447162 /* DBManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 75F06B5F1AE108CB00447162 /* DBManager.m */; };
+		75F06B661AE108CB00447162 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75F06B611AE108CB00447162 /* DetailViewController.m */; };
+		75F06B671AE108CB00447162 /* karaokeplus.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 75F06B621AE108CB00447162 /* karaokeplus.sqlite */; };
+		75F06B681AE108CB00447162 /* KaraokeViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 75F06B641AE108CB00447162 /* KaraokeViewCell.m */; };
+		75F06B761AE1093C00447162 /* AppIcon1024.png in Resources */ = {isa = PBXBuildFile; fileRef = 75F06B6B1AE1093C00447162 /* AppIcon1024.png */; };
+		75F06B771AE1093C00447162 /* AppIcon120.png in Resources */ = {isa = PBXBuildFile; fileRef = 75F06B6C1AE1093C00447162 /* AppIcon120.png */; };
+		75F06B781AE1093C00447162 /* AppIcon29.png in Resources */ = {isa = PBXBuildFile; fileRef = 75F06B6D1AE1093C00447162 /* AppIcon29.png */; };
+		75F06B791AE1093C00447162 /* AppIcon58.png in Resources */ = {isa = PBXBuildFile; fileRef = 75F06B6E1AE1093C00447162 /* AppIcon58.png */; };
+		75F06B7A1AE1093C00447162 /* AppIcon72.png in Resources */ = {isa = PBXBuildFile; fileRef = 75F06B6F1AE1093C00447162 /* AppIcon72.png */; };
+		75F06B7B1AE1093C00447162 /* AppIcon75.png in Resources */ = {isa = PBXBuildFile; fileRef = 75F06B701AE1093C00447162 /* AppIcon75.png */; };
+		75F06B7F1AE1093C00447162 /* karaoke logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 75F06B741AE1093C00447162 /* karaoke logo.png */; };
+		75F06B821AE109D600447162 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 75F06B811AE109D600447162 /* libsqlite3.dylib */; };
+		75F06B841AE109DD00447162 /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75F06B831AE109DD00447162 /* iAd.framework */; };
+		A48FE6491AE1795D00C47189 /* AppIcon640.png in Resources */ = {isa = PBXBuildFile; fileRef = A48FE6471AE1795D00C47189 /* AppIcon640.png */; };
+		A48FE64D1AE17E0300C47189 /* Default-568h.png in Resources */ = {isa = PBXBuildFile; fileRef = A48FE64C1AE17E0300C47189 /* Default-568h.png */; };
+		A48FE64F1AE17FF400C47189 /* AppIcon57.png in Resources */ = {isa = PBXBuildFile; fileRef = A48FE64E1AE17FF400C47189 /* AppIcon57.png */; };
+		A4BB46C51AE3AF6F008E7F87 /* Default-667h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A4BB46C31AE3AF6F008E7F87 /* Default-667h@2x.png */; };
+		A4BB46C61AE3AF6F008E7F87 /* Default-736h@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = A4BB46C41AE3AF6F008E7F87 /* Default-736h@3x.png */; };
+		A4EB48EB1AE17136002427EA /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A4EB48E81AE17136002427EA /* Default-568h@2x.png */; };
+		A4EB48EC1AE17136002427EA /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = A4EB48E91AE17136002427EA /* Default.png */; };
+		A4EB48ED1AE17136002427EA /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A4EB48EA1AE17136002427EA /* Default@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		75F06B4F1AE1089000447162 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 75F06B2D1AE1088F00447162 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 75F06B341AE1088F00447162;
+			remoteInfo = EnglishKaraoke;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		75F06B351AE1088F00447162 /* EnglishKaraoke.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EnglishKaraoke.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		75F06B391AE1088F00447162 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		75F06B3A1AE1088F00447162 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		75F06B3C1AE1088F00447162 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		75F06B3D1AE1088F00447162 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		75F06B3F1AE1088F00447162 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		75F06B401AE1088F00447162 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		75F06B431AE1088F00447162 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		75F06B451AE1088F00447162 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		75F06B481AE1088F00447162 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		75F06B4E1AE1089000447162 /* EnglishKaraokeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EnglishKaraokeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		75F06B531AE1089000447162 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		75F06B541AE1089000447162 /* EnglishKaraokeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EnglishKaraokeTests.m; sourceTree = "<group>"; };
+		75F06B5E1AE108CB00447162 /* DBManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBManager.h; sourceTree = "<group>"; };
+		75F06B5F1AE108CB00447162 /* DBManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBManager.m; sourceTree = "<group>"; };
+		75F06B601AE108CB00447162 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		75F06B611AE108CB00447162 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		75F06B621AE108CB00447162 /* karaokeplus.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = karaokeplus.sqlite; sourceTree = "<group>"; };
+		75F06B631AE108CB00447162 /* KaraokeViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KaraokeViewCell.h; sourceTree = "<group>"; };
+		75F06B641AE108CB00447162 /* KaraokeViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KaraokeViewCell.m; sourceTree = "<group>"; };
+		75F06B6B1AE1093C00447162 /* AppIcon1024.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AppIcon1024.png; sourceTree = "<group>"; };
+		75F06B6C1AE1093C00447162 /* AppIcon120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AppIcon120.png; sourceTree = "<group>"; };
+		75F06B6D1AE1093C00447162 /* AppIcon29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AppIcon29.png; sourceTree = "<group>"; };
+		75F06B6E1AE1093C00447162 /* AppIcon58.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AppIcon58.png; sourceTree = "<group>"; };
+		75F06B6F1AE1093C00447162 /* AppIcon72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AppIcon72.png; sourceTree = "<group>"; };
+		75F06B701AE1093C00447162 /* AppIcon75.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AppIcon75.png; sourceTree = "<group>"; };
+		75F06B741AE1093C00447162 /* karaoke logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "karaoke logo.png"; sourceTree = "<group>"; };
+		75F06B811AE109D600447162 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		75F06B831AE109DD00447162 /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
+		A48FE6471AE1795D00C47189 /* AppIcon640.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AppIcon640.png; sourceTree = "<group>"; };
+		A48FE64C1AE17E0300C47189 /* Default-568h.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h.png"; sourceTree = "<group>"; };
+		A48FE64E1AE17FF400C47189 /* AppIcon57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AppIcon57.png; sourceTree = "<group>"; };
+		A4BB46C31AE3AF6F008E7F87 /* Default-667h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-667h@2x.png"; sourceTree = "<group>"; };
+		A4BB46C41AE3AF6F008E7F87 /* Default-736h@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-736h@3x.png"; sourceTree = "<group>"; };
+		A4EB48E81AE17136002427EA /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		A4EB48E91AE17136002427EA /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		A4EB48EA1AE17136002427EA /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		75F06B321AE1088F00447162 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75F06B841AE109DD00447162 /* iAd.framework in Frameworks */,
+				75F06B821AE109D600447162 /* libsqlite3.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75F06B4B1AE1089000447162 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		75F06B2C1AE1088F00447162 = {
+			isa = PBXGroup;
+			children = (
+				75F06B831AE109DD00447162 /* iAd.framework */,
+				75F06B811AE109D600447162 /* libsqlite3.dylib */,
+				75F06B371AE1088F00447162 /* EnglishKaraoke */,
+				75F06B511AE1089000447162 /* EnglishKaraokeTests */,
+				75F06B361AE1088F00447162 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		75F06B361AE1088F00447162 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				75F06B351AE1088F00447162 /* EnglishKaraoke.app */,
+				75F06B4E1AE1089000447162 /* EnglishKaraokeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		75F06B371AE1088F00447162 /* EnglishKaraoke */ = {
+			isa = PBXGroup;
+			children = (
+				75F06B6A1AE1093C00447162 /* karaoke */,
+				75F06B691AE108D000447162 /* datasource */,
+				75F06B5E1AE108CB00447162 /* DBManager.h */,
+				75F06B5F1AE108CB00447162 /* DBManager.m */,
+				75F06B601AE108CB00447162 /* DetailViewController.h */,
+				75F06B611AE108CB00447162 /* DetailViewController.m */,
+				75F06B631AE108CB00447162 /* KaraokeViewCell.h */,
+				75F06B641AE108CB00447162 /* KaraokeViewCell.m */,
+				75F06B3C1AE1088F00447162 /* AppDelegate.h */,
+				75F06B3D1AE1088F00447162 /* AppDelegate.m */,
+				75F06B3F1AE1088F00447162 /* ViewController.h */,
+				75F06B401AE1088F00447162 /* ViewController.m */,
+				75F06B421AE1088F00447162 /* Main.storyboard */,
+				75F06B451AE1088F00447162 /* Images.xcassets */,
+				75F06B471AE1088F00447162 /* LaunchScreen.xib */,
+				75F06B381AE1088F00447162 /* Supporting Files */,
+			);
+			path = EnglishKaraoke;
+			sourceTree = "<group>";
+		};
+		75F06B381AE1088F00447162 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				75F06B391AE1088F00447162 /* Info.plist */,
+				75F06B3A1AE1088F00447162 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		75F06B511AE1089000447162 /* EnglishKaraokeTests */ = {
+			isa = PBXGroup;
+			children = (
+				75F06B541AE1089000447162 /* EnglishKaraokeTests.m */,
+				75F06B521AE1089000447162 /* Supporting Files */,
+			);
+			path = EnglishKaraokeTests;
+			sourceTree = "<group>";
+		};
+		75F06B521AE1089000447162 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				75F06B531AE1089000447162 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		75F06B691AE108D000447162 /* datasource */ = {
+			isa = PBXGroup;
+			children = (
+				75F06B621AE108CB00447162 /* karaokeplus.sqlite */,
+			);
+			name = datasource;
+			sourceTree = "<group>";
+		};
+		75F06B6A1AE1093C00447162 /* karaoke */ = {
+			isa = PBXGroup;
+			children = (
+				A4BB46C31AE3AF6F008E7F87 /* Default-667h@2x.png */,
+				A4BB46C41AE3AF6F008E7F87 /* Default-736h@3x.png */,
+				A48FE64E1AE17FF400C47189 /* AppIcon57.png */,
+				A48FE64C1AE17E0300C47189 /* Default-568h.png */,
+				A48FE6471AE1795D00C47189 /* AppIcon640.png */,
+				A4EB48E81AE17136002427EA /* Default-568h@2x.png */,
+				A4EB48E91AE17136002427EA /* Default.png */,
+				A4EB48EA1AE17136002427EA /* Default@2x.png */,
+				75F06B6B1AE1093C00447162 /* AppIcon1024.png */,
+				75F06B6C1AE1093C00447162 /* AppIcon120.png */,
+				75F06B6D1AE1093C00447162 /* AppIcon29.png */,
+				75F06B6E1AE1093C00447162 /* AppIcon58.png */,
+				75F06B6F1AE1093C00447162 /* AppIcon72.png */,
+				75F06B701AE1093C00447162 /* AppIcon75.png */,
+				75F06B741AE1093C00447162 /* karaoke logo.png */,
+			);
+			path = karaoke;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		75F06B341AE1088F00447162 /* EnglishKaraoke */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75F06B581AE1089000447162 /* Build configuration list for PBXNativeTarget "EnglishKaraoke" */;
+			buildPhases = (
+				75F06B311AE1088F00447162 /* Sources */,
+				75F06B321AE1088F00447162 /* Frameworks */,
+				75F06B331AE1088F00447162 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EnglishKaraoke;
+			productName = EnglishKaraoke;
+			productReference = 75F06B351AE1088F00447162 /* EnglishKaraoke.app */;
+			productType = "com.apple.product-type.application";
+		};
+		75F06B4D1AE1089000447162 /* EnglishKaraokeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75F06B5B1AE1089000447162 /* Build configuration list for PBXNativeTarget "EnglishKaraokeTests" */;
+			buildPhases = (
+				75F06B4A1AE1089000447162 /* Sources */,
+				75F06B4B1AE1089000447162 /* Frameworks */,
+				75F06B4C1AE1089000447162 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				75F06B501AE1089000447162 /* PBXTargetDependency */,
+			);
+			name = EnglishKaraokeTests;
+			productName = EnglishKaraokeTests;
+			productReference = 75F06B4E1AE1089000447162 /* EnglishKaraokeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		75F06B2D1AE1088F00447162 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Phoenix NH";
+				TargetAttributes = {
+					75F06B341AE1088F00447162 = {
+						CreatedOnToolsVersion = 6.3;
+						DevelopmentTeam = D69F8H8HAM;
+					};
+					75F06B4D1AE1089000447162 = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = 75F06B341AE1088F00447162;
+					};
+				};
+			};
+			buildConfigurationList = 75F06B301AE1088F00447162 /* Build configuration list for PBXProject "EnglishKaraoke" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 75F06B2C1AE1088F00447162;
+			productRefGroup = 75F06B361AE1088F00447162 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				75F06B341AE1088F00447162 /* EnglishKaraoke */,
+				75F06B4D1AE1089000447162 /* EnglishKaraokeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		75F06B331AE1088F00447162 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75F06B7B1AE1093C00447162 /* AppIcon75.png in Resources */,
+				A48FE64F1AE17FF400C47189 /* AppIcon57.png in Resources */,
+				75F06B671AE108CB00447162 /* karaokeplus.sqlite in Resources */,
+				75F06B441AE1088F00447162 /* Main.storyboard in Resources */,
+				75F06B7A1AE1093C00447162 /* AppIcon72.png in Resources */,
+				75F06B491AE1088F00447162 /* LaunchScreen.xib in Resources */,
+				A48FE6491AE1795D00C47189 /* AppIcon640.png in Resources */,
+				A4EB48EB1AE17136002427EA /* Default-568h@2x.png in Resources */,
+				75F06B761AE1093C00447162 /* AppIcon1024.png in Resources */,
+				A48FE64D1AE17E0300C47189 /* Default-568h.png in Resources */,
+				A4BB46C61AE3AF6F008E7F87 /* Default-736h@3x.png in Resources */,
+				A4EB48EC1AE17136002427EA /* Default.png in Resources */,
+				75F06B7F1AE1093C00447162 /* karaoke logo.png in Resources */,
+				75F06B781AE1093C00447162 /* AppIcon29.png in Resources */,
+				A4BB46C51AE3AF6F008E7F87 /* Default-667h@2x.png in Resources */,
+				75F06B771AE1093C00447162 /* AppIcon120.png in Resources */,
+				75F06B461AE1088F00447162 /* Images.xcassets in Resources */,
+				A4EB48ED1AE17136002427EA /* Default@2x.png in Resources */,
+				75F06B791AE1093C00447162 /* AppIcon58.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75F06B4C1AE1089000447162 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		75F06B311AE1088F00447162 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75F06B661AE108CB00447162 /* DetailViewController.m in Sources */,
+				75F06B411AE1088F00447162 /* ViewController.m in Sources */,
+				75F06B3E1AE1088F00447162 /* AppDelegate.m in Sources */,
+				75F06B681AE108CB00447162 /* KaraokeViewCell.m in Sources */,
+				75F06B3B1AE1088F00447162 /* main.m in Sources */,
+				75F06B651AE108CB00447162 /* DBManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75F06B4A1AE1089000447162 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75F06B551AE1089000447162 /* EnglishKaraokeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		75F06B501AE1089000447162 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 75F06B341AE1088F00447162 /* EnglishKaraoke */;
+			targetProxy = 75F06B4F1AE1089000447162 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		75F06B421AE1088F00447162 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				75F06B431AE1088F00447162 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		75F06B471AE1088F00447162 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				75F06B481AE1088F00447162 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		75F06B561AE1089000447162 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		75F06B571AE1089000447162 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		75F06B591AE1089000447162 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Nhan thanh (D69F8H8HAM)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Nhan thanh (D69F8H8HAM)";
+				INFOPLIST_FILE = EnglishKaraoke/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "74c2891d-ee80-4b40-8d0e-5cf5e0358b05";
+			};
+			name = Debug;
+		};
+		75F06B5A1AE1089000447162 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Nhan thanh (D69F8H8HAM)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Nhan thanh (D69F8H8HAM)";
+				INFOPLIST_FILE = EnglishKaraoke/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "74c2891d-ee80-4b40-8d0e-5cf5e0358b05";
+			};
+			name = Release;
+		};
+		75F06B5C1AE1089000447162 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = EnglishKaraokeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EnglishKaraoke.app/EnglishKaraoke";
+			};
+			name = Debug;
+		};
+		75F06B5D1AE1089000447162 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = EnglishKaraokeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EnglishKaraoke.app/EnglishKaraoke";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		75F06B301AE1088F00447162 /* Build configuration list for PBXProject "EnglishKaraoke" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75F06B561AE1089000447162 /* Debug */,
+				75F06B571AE1089000447162 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		75F06B581AE1089000447162 /* Build configuration list for PBXNativeTarget "EnglishKaraoke" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75F06B591AE1089000447162 /* Debug */,
+				75F06B5A1AE1089000447162 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		75F06B5B1AE1089000447162 /* Build configuration list for PBXNativeTarget "EnglishKaraokeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75F06B5C1AE1089000447162 /* Debug */,
+				75F06B5D1AE1089000447162 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 75F06B2D1AE1088F00447162 /* Project object */;
+}
